@@ -1,6 +1,8 @@
 package com.mishilda.bluetooth
 
+import android.bluetooth.BluetoothDevice
+
 data class Device(
-    val name: String,
-    val mac: String
+    val device: BluetoothDevice,
+    val isChecked: Boolean,
 )
